@@ -1,2 +1,3 @@
-# LeetCode
-  Problems on LeetCode solved in Python
+# CodeRepo
+
+  Problems on LeetCode solved in Python along with some extras
