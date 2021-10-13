@@ -104,6 +104,22 @@ class SingleLinkedList():
                 break
             else:
                 index = index.next
+    
+    def reverse(self):
+        """
+        Reverse the link list
+        """
+        temp = None
+        first = self._root
+        second = self._root.next
+        while (second is not None):
+            temp = second.next
+            second.next = first
+            first = second
+            second = temp
+        self._root.next = None
+        self._root = first
+
 
 sll = SingleLinkedList()
 sll.prepend(1)
@@ -124,3 +140,6 @@ print()
 sll.delete_by_value(1)
 sll.display()
 print()
+sll.reverse()
+sll.display()
+
