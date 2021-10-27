@@ -44,7 +44,7 @@ obj.add_edge(2,4)
 obj.add_edge(3,4)
 
 obj.add_edge(3,1)
-obj.add_edge(4, 2)
+obj.add_edge(4,2)
 obj.add_edge(4,3)
 
 obj.print_tree()
